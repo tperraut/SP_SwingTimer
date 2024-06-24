@@ -337,15 +337,9 @@ local function ResetTimer(off)
 	if (not off) then
 		st_timerMax = GetWeaponSpeed(off)
 		st_timer = GetWeaponSpeed(off)
-		if (isDualWield() and st_timerOff < 0.2) then
-			st_timerOff = 0.2;
-		end
 	else
 		st_timerOffMax = GetWeaponSpeed(off)
 		st_timerOff = GetWeaponSpeed(off)
-		if (isDualWield() and st_timer < 0.2) then
-			st_timer = 0.2;
-		end
 	end
 
 	SP_ST_Frame:Show()
