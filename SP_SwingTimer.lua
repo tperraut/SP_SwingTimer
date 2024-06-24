@@ -3,7 +3,7 @@ local version = "4.1.1"
 
 local st_delay = 0.2 -- On Vmangos there is a 200ms delay between main hand and off hand auto attacks
 
-if GetRealmName() == "Nordanaar" or GetRealmName == "Tel'Abim" then
+if GetRealmName() == "Nordanaar" or GetRealmName() == "Tel'Abim" then
 	st_delay = 0 -- TurtleWoW removed the delay between main hand and off hand auto attacks
 end
 
