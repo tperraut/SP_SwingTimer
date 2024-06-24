@@ -165,6 +165,8 @@ end
 
 --------------------------------------------------------------------------------
 
+local TrackedActionSlots = {}
+
 local function UpdateHeroicStrike()
 	local _, class = UnitClass("player")
 	if class ~= "WARRIOR" then
