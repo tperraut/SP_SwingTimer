@@ -3,9 +3,6 @@
 ## Author: turtle-wow version https://github.com/balakethelock
 ## Version: 4.3.0
 ## Notes: Auto-Attack Swing Timer. Chat command: |cffa050ff/st|r
-## Dependencies:
-## OptionalDeps:
 ## SavedVariablesPerCharacter: SP_ST_GS
-## SavedVariables: 
 SP_SwingTimer.xml
 SP_SwingTimer.lua
